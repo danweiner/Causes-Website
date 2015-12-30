@@ -31,6 +31,7 @@ CSS for Platform page
 	padding-right: 10px;
 	padding-left: 5px;
 	border-right: 1px solid black;
+
 }
 
 .col-2 {
@@ -126,11 +127,39 @@ button {
   color: #dae1e4;
 }
 
+/*DC css additions for the TrumpImage.html file (P.S.  Danny's mom is hot)
+*/
+
+div.img {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 400px;
+}	
+
+div.img:hover {
+    border: 3px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
 
 /*********
 CSS for Forms page
 *********/
 
+/*DC:  Stupid body color: red; made my html text red
+*/
 body{
 	color: red;
 	text-align: center;
