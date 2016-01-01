@@ -7,10 +7,11 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
-	<body>
+	<body class="signup-body">
 		
 		<form action="form.html" method="post">
-			<h1>Sign Up</h1>
+			<h1 class="signup-h1">Sign Up with Trump</h1>
+			<h4 class="donate">or just go ahead and <a href="http://paypal.com" target="_blank">DONATE</a></h2>
 
 			<fieldset>
 
@@ -39,21 +40,21 @@
 				<label for="bio">Biography:</label>
 				<textarea id="bio" name="user_bio"></textarea><br>
 
-				<label for="hobbies">Hobbies:</label>
-				<select id="job" name="user_job">
-					<optgroup label="Web">
-						<option value="frontend_developer_tutor">Front-End Developer Tutor</option>
-						<option value="backend_developer_tutor">Back-end Developer Tutor</option>
-						<option value="rails_developer_tutor">Rails Developer Tutor</option>
-					<optgroup label="Mobile">
-						<option value="android_developer">Android Developer</option>
-						<option value="ios_developer">iOS Developer</option>
+				<label for="policy_interests">Policy Interests:</label>
+				<select id="favorite_policy" name="user_policy">
+					<optgroup label="Domestic">
+						<option value="immigration">Wall Building</option>
+						<option value="business">Driving Companies to Bankruptcy</option>
+						<option value="style">Combovers</option>
+					<optgroup label="International">
+						<option value="isis">Clueless</option>
+						<option value="allies">What allies</option>
 				</select>
 
 				<label>Interests:</label>
-				<input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Developent</label>
+				<input type="checkbox" id="rosie_odonnell" value="interest_rosie_odonnell" name="user_interest"><label class="light" for="rosie_odonnell">Rosie O'Donnell</label>
 				
-				<input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label>
+				<input type="checkbox" id="combovers" value="interest_combovers" name="user_interest"><label class="light" for="combovers">Combovers</label>
 				
 				<input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
 			

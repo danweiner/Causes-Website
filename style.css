@@ -1,7 +1,17 @@
 /*********
 CSS for Platform page
 *********/
+.platform-body {
+	font-family: 'Fontdiner Swanky', cursive;
+}
 
+.platform-h1{
+	text-decoration: underline;
+}
+
+.platform-h1, .platform-h4 {
+	text-align: center;
+}
 
 .wrapper {
 	width: 1000px;
@@ -93,7 +103,7 @@ CSS for Platform page
 .col-6 p {
 	color: blue;
 	font-family: 'Fontdiner Swanky', cursive;
-	line-height: 30px;
+	line-height: 25px;
 	text-align: center;
 }
 
@@ -108,7 +118,7 @@ button {
   border: none;
   border-radius: 5px;
   color: #1d3c6a;
-  font-size: 18px;
+  font-size: 15px;
   width: 100px;
   outline: none;
   cursor: pointer;
@@ -120,12 +130,12 @@ button {
   margin: 0 auto 20px;
   border-radius: 5px;
   text-align: center;
-  font-size: 18px;
   
 }
 .spoiler span {
   color: #dae1e4;
   font-family: 'Fontdiner Swanky', cursive;
+  font-size: 14px;
 }
 
 /*DC css additions for the TrumpImage.html file (P.S.  Danny's mom is hot)
@@ -159,8 +169,9 @@ div.desc {
 CSS for Forms page
 *********/
 
-/*DC:  Stupid body color: red; made my html text red
-*/
+.signup-body {
+	font-family: 'Fontdiner Swanky', cursive;
+}
 
 form {
   max-width: 700px;
@@ -208,8 +219,7 @@ select {
 }
 
 legend {
-	font-size: 25px;
-	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 25px;	
 }
 
 
@@ -231,4 +241,24 @@ label.light {
 button [type=submit] {
 	width: 120px;
 	font-size: 30px;
+}
+
+.signup-h1 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.donate {
+	text-align: center;
+}
+
+.donate a{
+	color: #00aa00;
+	text-decoration: none;
+	background-color: #99ff99;
+}
+
+.donate a:hover {
+	color: #aa0000;
+	text-decoration: underline;
 }
